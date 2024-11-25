@@ -1,0 +1,30 @@
+{
+    "ecole": "Junia Maroc",
+    "prof": "Hatim Naqos",
+    "nomFichier": "qcm_data22_05_24_27_03",
+    "niveau": "JM3",
+    "matiere": "Math\u00e9matique",
+    "type_qcm": "test",
+    "date": "2024-05-22",
+    "duree": "2",
+    "calculatrice": 0,
+    "documents": 0,
+    "autreConsignes": "",
+    "notation": [
+        2,
+        -1
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "texte": "test",
+            "options": [
+                "test",
+                "test",
+                "test",
+                "test"
+            ],
+            "reponse": "1"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+
+
+
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 1000px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 200px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 220px;
+  font-weight: 900;
+  margin: 0px;
+  color: #D1000A;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.notfound h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.notfound .home-btn, .notfound .contact-btn {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  padding: 11px 25px;
+  font-size: 18px;
+  border-radius: 40px;
+  margin: 7px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound .home-btn:hover, .notfound .contact-btn:hover {
+  opacity: 0.9;
+}
+
+.notfound .home-btn,.notfound .home-btn:active {
+  color: white;
+  background:#D1000A;
+  
+}
+
+.notfound .contact-btn {
+  color: white;
+  background:black;
+}
+
+.notfound .home-btn:hover{
+  color: white;
+  background:black;
+  
+}
+
+.notfound .contact-btn:hover {
+  color: white;
+  background:#D1000A;
+}
+
+
