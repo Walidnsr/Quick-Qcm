@@ -1,8 +1,4 @@
 
-![Bannière](Screenshots%20du%20site/Acc1.png)
-![Bannière](Screenshots%20du%20site/Acc2.png)
-![Bannière](Screenshots%20du%20site/Compte%20d'utilisateur.png)
-![Bannière](Screenshots%20du%20site/Professeur%20login.png)
 
 # **Quick QCM**
 
@@ -17,6 +13,10 @@ Quick QCM est une application web destinée à simplifier la création, la gesti
 - **Gestion centralisée des données** : Stockage des QCM, résultats et rapports.
 - **Historique des QCM** : Réutilisation et modification des questionnaires.
 
+<img src="Screenshots%20du%20site/Acc1.png" alt="Bannière" width="400">
+<img src="Screenshots%20du%20site/Acc2.png" alt="Bannière" width="400">
+<img src="Screenshots%20du%20site/Compte%20d'utilisateur.png" alt="Compte utilisateur" width="400">
+<img src="Screenshots%20du%20site/Professeur%20login.png" alt="Login Professeur" width="400">
 ---
 
 ## **Prérequis**
