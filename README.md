@@ -1,15 +1,24 @@
 
-```markdown
+![Bannière](Screenshots du site/Acc1.png)
+![Bannière](Screenshots du site/Acc1.png)
+![Bannière](Screenshots du site/Acc1.png)
+![Bannière](Screenshots du site/Acc1.png)
+
+
 # **Quick QCM**
 
 ## **Description**
 Quick QCM est une application web destinée à simplifier la création, la gestion et la correction des questionnaires à choix multiples (QCM). L'application offre des fonctionnalités avancées telles que la correction automatisée basée sur le traitement d'image, un historique de QCM et une gestion centralisée des résultats.
+
+---
 
 ## **Fonctionnalités principales**
 - **Création intuitive de QCM** : Interface simple pour définir des questions et réponses.
 - **Correction automatisée** : Traitement des réponses scannées pour générer des résultats précis.
 - **Gestion centralisée des données** : Stockage des QCM, résultats et rapports.
 - **Historique des QCM** : Réutilisation et modification des questionnaires.
+
+---
 
 ## **Prérequis**
 Pour exécuter le projet, vous devez disposer des éléments suivants :
@@ -39,6 +48,8 @@ Installez les bibliothèques suivantes si vous utilisez les scripts Python pour 
   pip install easyocr
   ```
 
+---
+
 ## **Installation et configuration**
 
 ### **Étape 1 : Cloner le dépôt GitHub**
@@ -49,12 +60,16 @@ Installez les bibliothèques suivantes si vous utilisez les scripts Python pour 
    ```
    Le projet sera cloné sous le nom `Quick-Qcm`.
 
+---
+
 ### **Étape 2 : Placer le projet dans le dossier XAMPP**
 1. Déplacez le dossier cloné `Quick-Qcm` dans le répertoire `htdocs` de XAMPP.
    Exemple :
    ```
    C:\xampp\htdocs\Quick-Qcm
    ```
+
+---
 
 ### **Étape 3 : Configurer la base de données**
 1. Lancez XAMPP et démarrez les modules **Apache** et **MySQL**.
@@ -69,6 +84,8 @@ Installez les bibliothèques suivantes si vous utilisez les scripts Python pour 
    ```
    - Cliquez sur **Importer**, sélectionnez le fichier SQL et exécutez.
 
+---
+
 ### **Étape 4 : Configurer les fichiers PHP**
 Ouvrez le fichier `QuickQcm-site-api/traitement.php` et configurez les paramètres de connexion à la base de données si nécessaire :
 ```php
@@ -78,17 +95,23 @@ $password = "";
 $database = "projetqcm";
 ```
 
+---
+
 ### **Étape 5 : Accéder à l'application**
 Dans votre navigateur, accédez à l'application via :
 ```
 http://localhost/Quick-Qcm/QuickQcm-site-api/index.html
 ```
 
+---
+
 ## **Identifiant de test**
 Pour tester le projet, utilisez l'identifiant suivant :
 
 - **Email** : `hatim.naqos@junia.com`
 - **Mot de passe** : `motdepasse1`
+
+---
 
 ## **Arborescence complète du projet**
 Voici la structure complète du projet pour une meilleure vue d'ensemble :
@@ -227,8 +250,9 @@ Quick-Qcm
    ├─ Correction QCM.png
    ├─ Creation Qcm.png
    └─ Professeur login.png
-
 ```
+
+---
 
 ## **Utilisation**
 
@@ -238,14 +262,20 @@ Quick-Qcm
 3. Remplissez les informations nécessaires : nom du test, questions, réponses.
 4. Générez et téléchargez un PDF contenant le QCM.
 
+---
+
 ### **2. Correction de QCM**
 1. Scannez les réponses des étudiants.
 2. Importez les fichiers scannés via **Correction QCM**.
 3. Le système attribue les notes automatiquement et génère un fichier Excel des résultats.
 
+---
+
 ### **3. Historique des QCM**
 1. Accédez à **Historique**.
 2. Recherchez, affichez ou téléchargez un QCM existant pour réutilisation.
+
+---
 
 ## **Commandes Git utiles**
 - **Vérifiez l'état des modifications :**
@@ -264,3 +294,4 @@ Quick-Qcm
   ```bash
   git push origin main
   ```
+
